@@ -22,6 +22,8 @@ requirements:
   run:
     - python
     - astor
+    - black
+    - isort >=5
 
 test:
   imports:
