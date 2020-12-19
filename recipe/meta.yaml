@@ -1,6 +1,6 @@
 {% set name = "codemodel" %}
-{% set version = "0.0.6" %}
-{% set sha256 = "2bb348cabb354a372fa1839be4982936766f0ce22eaec12c5966bc59a58a4ff2" %}
+{% set version = "0.0.7" %}
+{% set sha256 = "d03ca24585d867754ca0f34aba2c577f83386425251d2f283be4fbbad35bcf60" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,9 +32,9 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Advanced metaprogramming tools'
+  summary: Advanced metaprogramming tools
   description: |
-      Advanced metaprogramming tools.
+    Advanced metaprogramming tools.
   doc_url: https://codemodel.readthedocs.io/
   dev_url: https://github.com/dwhswenson/codemodel
 
