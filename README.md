@@ -5,9 +5,13 @@ Home: https://github.com/dwhswenson/codemodel
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/codemodel-feedstock/blob/master/LICENSE.txt)
 
 Summary: Advanced metaprogramming tools
+
+Development: https://github.com/dwhswenson/codemodel
+
+Documentation: https://codemodel.readthedocs.io/
 
 Advanced metaprogramming tools.
 
